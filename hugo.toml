@@ -3,3 +3,15 @@ languageCode = 'en-us'
 title = 'My New Hugo Site'
 
 theme = 'PaperMod'
+
+[params]
+homeinfoParams = { Title = 'Hi ', Content = 'Welcome to my site'}
+
+[[menu.main]]
+name='blog'
+url='/posts/'
+weight=1
+
+[caches]
+[caches.images]
+  dir = ':cacheDir/images'
